@@ -11,11 +11,11 @@ $(function() {
   }
 });
 
-function addCourses(courseList){
+function addCourses(courses){
 
    var $badges = $('#badges');
 
-   courseList.forEach(function(course){
+   courses.forEach(function(course){
       var $course = $('<div />', {
          'class':'course'
       }).appendTo($badges);
