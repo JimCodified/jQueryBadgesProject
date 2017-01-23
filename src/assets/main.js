@@ -5,8 +5,6 @@ $(function() {
   url: 'https://www.codeschool.com/users/jim-arms.json',
   dataType: 'jsonp',
   success: function(response) {
-    // handle response
-    // console.log('response',response.courses.completed);
     addCourses(response.courses.completed);
   }
 });
